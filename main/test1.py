@@ -2,5 +2,6 @@ __author__ = 'aliuzun'
 
 import unittest
 
-def fnc(strs):
-    print len(strs)
+
+def firstFunction():
+    print  "Hello Github"
