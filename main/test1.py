@@ -10,8 +10,12 @@ class MyTest(unittest.TestCase):
         self.assertEqual(2,2)
 
     def new_func(self,data):
+        num=0
         for i in data:
-            print i
+            if num<i:
+                num==i
+        return num
+
 
 
 
