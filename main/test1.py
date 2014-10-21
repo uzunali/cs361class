@@ -21,10 +21,11 @@ class MyTest(unittest.TestCase):
 
     def deneme(self,data,look):
         lo,hi=0,len(data)
+        look=00
         mid=(lo+hi)/2
         return data[mid],look
 
-    """Elhamdulillah Muslumaniz"""
+
 
 
 
