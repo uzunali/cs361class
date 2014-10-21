@@ -10,13 +10,16 @@ class MyTest(unittest.TestCase):
         self.assertEqual(2,2)
 
     def new_func(self,data):
-        num=0
+        num=10
         for i in data:
-            if num<i:
+            if num>i:
                 num==i
         return num
 
-
+    def deneme(self,data,look):
+        lo,hi=0,len(data)
+        mid=(lo+hi)/2
+        return data[mid],look
 
 
 # if __name__= '__main__':
