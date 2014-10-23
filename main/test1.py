@@ -23,7 +23,12 @@ class MyTest(unittest.TestCase):
         lo,hi=0,len(data)
         look=00
         mid=(lo+hi)/2
-        return data[mid],look
+
+        if look > data[mid]:
+            lo=mid+1
+
+
+
 
 
 
